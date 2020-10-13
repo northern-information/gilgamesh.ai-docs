@@ -1,7 +1,6 @@
-title: perfect bootstrap jekyll
-description: the perfect bootstrap jekyll starting theme. xoxo northern information.
-baseurl: /perfect-bootstrap-jekyll
-url: https://tyleretters.github.io/perfect-bootstrap-jekyll
+title: Gilgamesh AI
+baseurl: /
+url: https://docs.gilgamesh.ai
 permalink: pretty
 sort_by: year, month
 markdown: kramdown
