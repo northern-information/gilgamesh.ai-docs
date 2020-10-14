@@ -1,2 +1,54 @@
-nav.container-fluid
-  margin-top: 10px
+$black: #222222
+$purple: #30173A
+$yellow: #EAF0CE
+$melon: #FF6F59
+$seaweed: #177E89
+$teal: #548687
+
+body
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif
+
+code, pre
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
+  color: $yellow
+
+h1, h2, h3, h4, h5, h6
+  font-family: 'Libre Baskerville', serif
+  color: $melon
+
+body
+  background: $purple
+  background: linear-gradient(180deg, $black 0%, $purple 100%)
+
+p
+  color: $yellow
+
+#container
+  position: relative
+  height: 2000px
+  width: 800px
+  -webkit-perspective: 500
+
+#parent
+  margin: 10px
+  width: 280px
+  height: 280px
+  opacity: 0.8
+  -webkit-transform-style: preserve-3d
+  -webkit-animation: spin 10s infinite linear
+
+
+@-webkit-keyframes spin
+  from 
+    -webkit-transform: rotateY(0)
+  to
+    -webkit-transform: rotateY(360deg)
+
+#parent > div
+  position: absolute
+  top: 40px
+  left: 40px
+  width: 200px
+  height: 200px
+  padding: 10px
+  -webkit-box-sizing: border-box

@@ -1,4 +1,47 @@
-nav.container-fluid {
-  margin-top: 10px; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; }
+
+code, pre {
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  color: #EAF0CE; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Libre Baskerville", serif;
+  color: #FF6F59; }
+
+body {
+  background: #30173A;
+  background: linear-gradient(180deg, #222222 0%, #30173A 100%); }
+
+p {
+  color: #EAF0CE; }
+
+#container {
+  position: relative;
+  height: 2000px;
+  width: 800px;
+  -webkit-perspective: 500; }
+
+#parent {
+  margin: 10px;
+  width: 280px;
+  height: 280px;
+  opacity: 0.8;
+  -webkit-transform-style: preserve-3d;
+  -webkit-animation: spin 10s infinite linear; }
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotateY(0); }
+  to {
+    -webkit-transform: rotateY(360deg); } }
+#parent > div {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  -webkit-box-sizing: border-box; }
 
 /*# sourceMappingURL=style.css.map */
