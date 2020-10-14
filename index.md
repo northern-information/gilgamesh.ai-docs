@@ -1,9 +1,6 @@
 ---
 layout: home
 ---
-
-<div id="container">
-<div id="parent">
 ## Tablet I
 He who has seen everything, I will make known (?) to the lands.
 I will teach (?) about him who experienced all things,
@@ -32,5 +29,3 @@ open the ... of its lock of bronze,
 undo the fastening of its secret opening.
 Take and read out from the lapis lazuli tablet
 how Gilgamesh went through every hardship.
-</div>
-</div>
